@@ -2,10 +2,20 @@ import React from "react";
 import { Grid } from "material-ui";
 
 import { RegularCard, Table, ItemGrid } from "components";
+import EditableTable from "../../components/EditableTable/EditableTable";
 
 function TableList({ ...props }) {
   return (
     <Grid container>
+      <ItemGrid xs={12} sm={12} md={12}>
+        <RegularCard
+          cardTitle="Editable Table"
+          cardSubtitle="Here is a subtitle for this table"
+          content={
+             <EditableTable />
+          }
+        />
+      </ItemGrid>
       <ItemGrid xs={12} sm={12} md={12}>
         <RegularCard
           cardTitle="Simple Table"

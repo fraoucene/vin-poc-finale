@@ -4,7 +4,6 @@ dist/
 tmp/
 target/
 .yarnrc
-.env
 npm-debug.log
 /bin/
 coverage/

@@ -5,6 +5,9 @@
   "private": false,
   "main": "index.js",
   "dependencies": {
+    "@devexpress/dx-react-core": "^1.2.0",
+    "@devexpress/dx-react-grid": "^1.2.0",
+    "@devexpress/dx-react-grid-material-ui": "^1.2.0",
     "@material-ui/icons": "1.0.0-beta.42",
     "chartist": "0.10.1",
     "classnames": "2.2.5",

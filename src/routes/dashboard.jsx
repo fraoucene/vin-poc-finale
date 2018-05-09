@@ -15,7 +15,7 @@ const dashboardRoutes = [
   {
     path: "/table",
     sidebarName: "Fomulaires de saisie",
-    navbarName: "Table List",
+    navbarName: "Fomulaires de saisie",
     icon: ContentPaste,
     component: TableList
   },
